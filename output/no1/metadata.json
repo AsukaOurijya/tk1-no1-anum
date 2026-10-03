@@ -1,0 +1,30 @@
+{
+  "dataset_sha256": {
+    "T_16.csv": "5a4ee3fe954fae3ca806c08f17288cc6568588191b527b96b1eaa162a9dc63bf",
+    "T_32.csv": "ffc027d905cc5209bb4b727d872fc8da941f9ba953ad68ee035f5212f36d0e5a",
+    "T_64.csv": "a487cb20cba94ffa9f5dc14de70b5ac54a0abb7829c77899b6e0e5052b1a6934",
+    "T_128.csv": "c862fb331cee243a0f90c158cc8d3e6e0576e6db20e3d8708d3afa549c1c6d1a",
+    "T_256.csv": "57e384f10e5e13f0014558137eb83767cee393406bf09f39933c69fed468012a",
+    "T_512.csv": "94a233c9614eac82d685ca3f138aa115f7b4c808905520d86ad4e32e7fc0c76d"
+  },
+  "scope": "TK 1 No. 1, i-ix",
+  "python": "3.12.13 (main, Mar 24 2026, 22:57:53) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "tol": 1e-10,
+  "norm": "infinity",
+  "random_seed": 20261003,
+  "random_test_count": 120,
+  "random_test_max_error": 2.7214230868821687e-11,
+  "random_test_pivot_swaps": 602,
+  "benchmark_repeats": 3,
+  "timing_scope": "solver validation + working copies + solve + normalization; median; no tracing",
+  "memory_scope": "input coefficient and rhs nbytes + traced extra peak; separate call; not RSS",
+  "condition_method": "all inverse columns via custom banded solves, accumulated absolute row sums",
+  "flux_reference_decimal_digits": 60,
+  "perturbation_N256": {
+    "relative_B_change": 1.189477678935164e-13,
+    "relative_pi_change": 5.610441326792049e-07
+  }
+}
